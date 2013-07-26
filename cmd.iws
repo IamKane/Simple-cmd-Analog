@@ -4,13 +4,15 @@
     <list default="true" id="c6f97da8-26c6-4237-92eb-21601a39f6f5" name="Default" comment="" />
     <ignored path="cmd.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374846640652" ignored="false" />
+    <file path="/Main.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374848640091" ignored="false" />
     <file path="/Dir.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374842220300" ignored="false" />
     <file path="/Dummy.txt" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374842230956" ignored="false" />
     <file path="/pom.xml" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374843049611" ignored="false" />
     <file path="/settings.xml" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374846082702" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/commands/PWD.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374844900504" ignored="false" />
     <file path="/DummyFile.xpath" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374846182933" ignored="false" />
+    <file path="/XMLLoader.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374848757841" ignored="false" />
+    <file path="/CommandManager.java" changelist="c6f97da8-26c6-4237-92eb-21601a39f6f5" time="1374849069235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +73,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="0.6363636">
+            <state line="7" column="8" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/XMLLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="18" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#XMLLoader#0;class#XMLLoader#0" expanded="false" />
+                <element signature="method#XMLLoader#1;class#XMLLoader#0" expanded="false" />
+                <element signature="method#getSettings#0;class#XMLLoader#0" expanded="false" />
+                <element signature="method#loadFrom#0;class#XMLLoader#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.xml">
+      <file leaf-file-name="CommandManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CommandManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+            <state line="4" column="39" selection-start="97" selection-end="97" vertical-scroll-proportion="0.121212125">
               <folding />
             </state>
           </provider>
@@ -106,8 +121,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/commands/Cd.java" />
         <option value="$PROJECT_DIR$/src/main/java/commands/PwdCommand.java" />
-        <option value="$PROJECT_DIR$/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/settings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CommandManager.java" />
       </list>
     </option>
   </component>
@@ -420,7 +437,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.681431" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.318569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.318569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -548,17 +565,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+        <state line="4" column="20" selection-start="126" selection-end="126" vertical-scroll-proportion="0.121212125">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="18" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#XMLLoader#0;class#XMLLoader#0" expanded="false" />
+            <element signature="method#XMLLoader#1;class#XMLLoader#0" expanded="false" />
+            <element signature="method#getSettings#0;class#XMLLoader#0" expanded="false" />
+            <element signature="method#loadFrom#0;class#XMLLoader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="0.6363636">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="7" column="8" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="97" selection-end="97" vertical-scroll-proportion="0.121212125">
+          <folding />
         </state>
       </provider>
     </entry>

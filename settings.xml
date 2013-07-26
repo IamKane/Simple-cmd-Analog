@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <commands>
-    <dir employment="dir"/>
-    <cd employment="cd"/>
-    <pwd employment="pwd"/>
+    <dir application="dir"/>
+    <cd application="cd"/>
+    <pwd application="pwd"/>
 </commands>
