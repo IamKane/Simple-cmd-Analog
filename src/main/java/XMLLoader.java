@@ -8,13 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Константин
- * Date: 26.07.13
- * Time: 20:02
- * To change this template use File | Settings | File Templates.
- */
 public class XMLLoader {
 
     private String xmlFile;
@@ -50,7 +43,6 @@ public class XMLLoader {
             System.out.println(ex.getMessage());
         }
 
-        System.out.println(rDoc.getRootElement().getName());
         commands = rDoc.getRootElement().getChildren();
 
         for (int i = 0; i < commands.size(); ++i) {
