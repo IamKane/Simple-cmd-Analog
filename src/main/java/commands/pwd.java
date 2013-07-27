@@ -2,12 +2,6 @@ package commands;
 
 public class pwd implements Executable {
 
-    public pwd() {
-
-
-
-    }
-
     @Override
     public String execute(String path, String[] comm) {
 

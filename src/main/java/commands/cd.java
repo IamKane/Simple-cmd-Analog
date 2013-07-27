@@ -5,12 +5,6 @@ import java.io.File;
 
 public class cd implements Executable {
 
-    public cd() {
-
-
-
-    }
-
     @Override
     public String execute(String path, String[] comm) {
 
