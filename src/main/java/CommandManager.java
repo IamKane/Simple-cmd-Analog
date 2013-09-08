@@ -37,7 +37,7 @@ public class CommandManager {
 
             currentPath = exec.execute(currentPath, comm);
 
-        } else System.out.println("Wrong command");
+        } else System.out.println("Wrong command.\n");
 
     }
 
